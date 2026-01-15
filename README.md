@@ -150,3 +150,5 @@ export default function App() {
 ### Icons
 
 [HeroIcons](https://heroicons.com/) - MIT license
+
+dumb edit to readme to check that versioning updates
