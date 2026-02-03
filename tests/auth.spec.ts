@@ -1,5 +1,6 @@
 import { test, expect } from 'playwright-test-coverage';
 
+//this needs to be set up so that you can't reregister with the same user. test shouldn't be passing its a bug that needs to be fixed.
 test('reregister with same user', async ({ page }) => {
   await page.goto('http://localhost:5173/');
 
