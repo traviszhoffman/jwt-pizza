@@ -33,6 +33,8 @@ jobs:
           cp dist/index.html dist/404.html
 
       - name: Run tests
+        env:
+          VITE_PIZZA_SERVICE_URL: https://pizza-service.cs329.click
         run: |
           npx playwright install --with-deps chromium
           npm run test:coverage
