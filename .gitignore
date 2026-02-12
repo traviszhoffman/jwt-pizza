@@ -6,6 +6,12 @@ coverage
 dist
 **/.vite
 
+# Build artifacts
+*.timestamp-*.mjs
+
+# Test outputs
+test-output.txt
+
 # Playwright
 node_modules/
 /test-results/
