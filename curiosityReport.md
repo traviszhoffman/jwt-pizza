@@ -36,4 +36,4 @@ Using grafana play I was able to explore how AI can be used in Outlier Detection
 As I explored AI obersvabilty in Grafana I did take sometime to look at other tools/competitors to Grafana such as DataDog and Dynatrace as well as other small startups that are exploring this problem space. I think Grafana is doing a good job at embracing AI and incorportating it in a way that leverages its capabilities while still being safe and protecting their platform and user data.
 
 ## Conclusion
-AI anomaly detection in Grafana is a practical upgrade to the monitoring work we already do. By learning what normal looks like, these tools reduce false positives, catch real problems earlier, and give better context when something goes wrong. 
+AI anomaly detection/observability in Grafana is a practical upgrade to the monitoring work we already do. By learning what normal looks like, these tools reduce false positives, catch real problems earlier, and give better context when something goes wrong. 
