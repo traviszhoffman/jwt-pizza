@@ -224,7 +224,7 @@ Corrections | Probably should add rate limit middleware on auth routes (register
 Item | Result
 --- | ---
 Date | 4/13/26
-Target website | https://pizza.pizzanow.click/
+Target website | https://pizza.gagecs.click
 Classification | Identification and Authentication Failures (OWASP A07)
 Severity (0-4) | 0
 Description of result | Didn't allow me to login without specifying a password or email for the request attempt! Great Job!
@@ -248,7 +248,7 @@ Corrections | You should validate that the new updated email is unique and not a
 Item | Result
 --- | ---
 Date | 4/13/26
-Target website | https://pizza-service.gagecs.click
+Target website | https://pizza.gagecs.click
 Classification | Insecure Design (OWASP A04)
 Severity (0-4) | 0
 Description of result | I attempted to send `POST /api/order` with a valid `menuId` but changed item `price` in the request body. The service trusted client input, so order totals and revenue could be manipulated.
