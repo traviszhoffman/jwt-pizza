@@ -235,7 +235,7 @@ Corrections | No fixes needed since you already made the fix for this and my att
 Item | Result
 --- | ---
 Date | April 14, 2026
-Target website | https://pizza-service.gagecs.click
+Target website | https://pizza.gagecs.click
 Classification | OWASP A01:2021 - Broken Access Control
 Severity (0-4) | 4
 Description of result | Exploited an IDOR vulnerability to update a diner account's email to the admin's email address via PUT /api/user/2. The server responded with a valid admin JWT token, granting full admin privileges to an unprivileged user. I was then able to edit the admin password and use all full admin privileges.
